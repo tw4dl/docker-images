@@ -1,5 +1,5 @@
-#FROM ubuntu:14.04
-FROM dliu/ubuntu-gcc-rabbitmq-avro
+FROM dliu/ubuntu-rabbitmq-avro:14.04
+MAINTAINER David Liu <email4dliu@gmail.com>
 
 # install miniconda
 RUN echo 'export PATH=/opt/conda/bin:$PATH' > /etc/profile.d/conda.sh && \

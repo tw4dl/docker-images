@@ -1,4 +1,5 @@
-FROM ubuntu:16.04
+FROM ubuntu:14.04
+MAINTAINER David Liu <email4dliu@gmail.com>
 # for ubuntu:12.04
 # FROM dliu/ubuntu-gcc-valgrind
 
