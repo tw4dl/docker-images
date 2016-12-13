@@ -1,4 +1,3 @@
-#FROM ubuntu:14.04
 FROM dliu/ubuntu-gcc-rabbitmq-avro
 
 # install miniconda
